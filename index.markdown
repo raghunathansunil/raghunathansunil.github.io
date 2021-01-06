@@ -8,11 +8,11 @@ permalink: /
 ---
 My single stop for Development projects, accelerators  and articles.  Prior to this, there was no easy way to collaborate and share my posts/articles, accelerators and code easily from mutiple social/local tools.
 
-The Github site created with Jekyll utility in a day. The focus of the website is to share content with simple navigation rather than the design elements.
+The Github site was created with Visual Studio Code, Git, and Jekyll utility in a day. The focus of the website is to share content with simple navigation rather than the design elements.
 
 * Home: The current folder
 * About: Background and Interests
 * Projects: Project that I'm currntly working on
 * Blogs: My viewpoints.
 
-You an reach out to me on email or the social media sites listed below.
+You can reach out to me on email or the social media sites listed below.
