@@ -6,7 +6,7 @@ layout: page
 title: Home
 permalink: /
 ---
-In this website, provides a single stop for Development projects, accelerators  and articles.  Prior to this, there was no easy way to collaborate and share my posts/articles, accelerators and code easily from mutiple social/local tools.
+My single stop for Development projects, accelerators  and articles.  Prior to this, there was no easy way to collaborate and share my posts/articles, accelerators and code easily from mutiple social/local tools.
 
 The Github site created with Jekyll utility in a day. The focus of the website is to share content with simple navigation rather than the design elements.
 
