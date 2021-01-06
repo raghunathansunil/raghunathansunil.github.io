@@ -1,0 +1,147 @@
+<html>
+<head>
+  <title>NoSQL Opensource Database: Architecture, Tools, Algorithm, Design, Interchange and Distributed architecture</title>
+  <style>
+    body {
+      margin: 0 auto;
+      width: 744px;
+      font-family: Source Serif Pro, serif;
+      line-height: 32px;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.7);
+      font-size: 21px;
+    }
+    h1, h2, h3 {
+      font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
+    }
+    h1 a, h1 a:visited {
+      color: inherit;
+      text-decoration: none;
+    }
+    h1 {
+      line-height: 48px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 42px;
+      margin: 32px 0 20px;
+    }
+    h2 {
+      line-height: 32px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 26px;
+      margin: 28px 0;
+    }
+    h3 {
+      line-height: 28px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 21px;
+      margin: 24px 0;
+    }
+    p {
+      margin: 32px 0;
+    }
+    .created, .published {
+      color: rgba(0, 0, 0, 0.55);
+      font-size: 15px;
+      line-height: 15px;
+      margin: 20px 0;
+    }
+    .created + .published {
+      margin-top: -12px;
+    }
+    blockquote {
+      font-family: Georgia, Source Serif Pro, serif;
+      font-style: italic;
+      font-size: 24px;
+      line-height: 36px;
+      margin: 48px 120px;
+      text-align: center;
+    }
+    a {
+      word-wrap: break-word;
+      outline: none;
+      text-decoration: none;
+      background-color: transparent;
+      border: 0;
+      color: #008CC9;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    a:visited {
+      color: #8C68CB;
+    }
+    .center {
+      text-align: center;
+    }
+    iframe {
+      display: block;
+      margin: 44px auto;
+    }
+    *:not(pre) + pre, pre:first-of-type {
+      margin-top: 32px;
+      padding-top: 32px;
+    }
+    pre:only-of-type {
+      margin: 32px 0;
+      padding: 32px;
+    }
+    pre {
+      background: #F3F6F8;
+      overflow-x: auto;
+      display: block;
+      font-size: 13px;
+      font-family: monospace;
+      line-height: 13px;
+      padding: 0 32px 32px;
+      white-space: pre;
+    }
+    a.embedded {
+      background: #F3F6F8;
+      display: block;
+      padding: 32px;
+      margin: 32px 0;
+    }
+    img {
+      height: auto;
+      max-width: 100%;
+    }
+    .slate-image-embed__resize-full-width img {
+      width: 100%;
+    }
+    .series-logo {
+      width: 48px;
+      height: 48px;
+      box-sizing: border-box;
+      background-clip: content-box;
+      border: 4px solid transparent;
+      border-radius: 6px;
+      object-fit: scale-down;
+      float: left;
+    }
+    .series-title {
+      font-size: 16px;
+      font-weight: 600;
+      vertical-align: top;
+    }
+    .series-description {
+      color: rgba(0,0,0,.6);
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+    }
+    div {
+      margin: 32px 0;
+    }
+  </style>
+</head>
+<body>
+    <img src="https://media.licdn.com/mediaC5612AQG2puaw_mwNnA" alt="" title="" />
+      <h1><a href="https://www.linkedin.com/pulse/nosql-opensource-database-architecture-tools-data-sunil-raghunathan">NoSQL Opensource Database: Architecture, Tools, Algorithm, Design, Interchange and Distributed architecture</a></h1>
+    <p class="created">Created on 2020-08-21 11:15</p>
+  <p class="published">Published on 2020-08-22 14:05</p>
+  <div><p>Cloud Platforms (AWS/Azure/Google/Amazon) offer a range of non-hierarchical, non-RDBMS databases services (not necessarily No-SQL): Wide-Column, Document, Time Series, Graph, and Analytics. Powered by opensource, and launched on cloud platforms, these have seen a growth of 52% in 2019, with projected revenues exceeding 25% by 2022.</p><p>The next-gen cloud-native application architectures and the hunger for data variety for Analytics/AI will drive adoption of these data management services rapidly if one understands the underlying algorithms, architecture and design principles. Here is a compendium of the same:</p><div class="slate-resizable-image-embed slate-image-embed__resize-full-width"><img alt="No alt text provided for this image" data-media-urn="urn:li:digitalmediaAsset:C5612AQERFnP0zi0zJQ" src="https://media-exp1.licdn.com/dms/image/C5612AQERFnP0zi0zJQ/article-inline_image-shrink_1000_1488/0/1598104724099?e=1615420800&amp;v=beta&amp;t=uAOBBaASc1oWuAL_Dwkk4YkJZu5TMXxVpXquFzraX08"></div><p><strong>Data Interchanges - Added 7th Sept 2020</strong></p><p>Traditional and bulky interchange - Services/WS/RPC/streams/messages/events/Actor-based for data pipelines: JSON, XML, CSV. May not be a best choice for data intensive apps working over n/w. Fast-forward and consider these options:</p><ol><li>Protobuf: If you are thinking RPC as interchange mechanisms and potentially gRPC</li><li>Thrift: Social streaming with facebook</li><li>Apache Avro: Opensource for Hadoop and large data, order agnostice (writer vs reader schema)</li></ol><p>The challenges in all the interchange formats is to take care of implementing the forward and backward incompatibilities.</p><p><strong>Architecture: Replication, Partitions, Transaction - Added 9th Sept 2020</strong></p><p>Distributed data bases will be increasingly common as we head to cloud. Its important to understand and account for the challenges while devising applications/algorithms:</p><ol><li>Replication challenges and solution:</li></ol><div class="slate-resizable-image-embed slate-image-embed__resize-full-width"><img alt="No alt text provided for this image" data-media-urn="urn:li:digitalmediaAsset:C5612AQHp4MRVI5UD5A" src="https://media-exp1.licdn.com/dms/image/C5612AQHp4MRVI5UD5A/article-inline_image-shrink_1500_2232/0/1599634591825?e=1615420800&amp;v=beta&amp;t=_uPBxQNnjwzStI2r34dIRY9m3TpRD35pXeIlUti_U-E"></div><p>2. Partitioning/Sharding: Horizontal scaling enabled by Key based, hash-based, primary/secondary index based, etc. The challenges are primary around need for rebalancing and routing, they are solved well by many large databases efficiently. </p><p>3. Transaction: Applications have to account for inconsistent implementation of Atomicity, Consistency, Isolation and Durability properties. This leads to Dirty reads, Dirty writes, lost updates, read/write skews (timing anomaly). The hard problem are solved by offering solutions that applications need to implement: Snapshot isolation with "BEGIN TRANSACTION", materializing conflicts with "SELECT FOR UPDATE", and Serialized isolation methods: poor performing Serial execution (REDIS), poor scaling 2-Phase locking (MYSQL using predicate, range-index, shared &amp; exclusive locks), the latest Serializable snapshot isolation (PostGres) where conflicting writes are isolated.</p><p><br></p></div>
+</body>
+</html>

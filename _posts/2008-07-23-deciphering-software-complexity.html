@@ -1,0 +1,15 @@
+---
+layout: post
+title: Deciphering software complexity - Cohesion, Coupling, threading and concurrent
+  engineering
+date: '2008-07-23T07:54:00.000-07:00'
+author: Sunil Raghunathan
+tags:
+- Change Management
+- Innovation
+modified_time: '2008-07-23T09:22:09.247-07:00'
+blogger_id: tag:blogger.com,1999:blog-4484451813429800896.post-8128582929768333194
+blogger_orig_url: https://insightful-journey.blogspot.com/2008/07/deciphering-software-complexity.html
+---
+
+I was just curious to understand software complexity & concurrent programming...increasingly so as I was encountering several deals where there is a requirement for software concurrent engineering to reduce cycle time from requirements to production deployment especially in AD engagements. It reminded me of the complexity assessment throuhg dependency matrices and application of DSM  technique expounded by my former collegue Navneet. It reminded me then to look into cohesion, coupling, concurrent engineering and cyclometic complexity topics in software engineering that I learnt long back while in college. I never got the time to look at it, except for now as I was thinking of a novel approach to handling this problem and write a paper!<br /><br />Cohesion is defined as the closeness of the relationshio between its components [Ian Somerville on Software engineering]. There are 8 difeerent levels of cohesion in order of increasing strength: Coincidental, logical association, temporal cohesion, procedural cohesion, communicational cohesion, sequential cohesion, functional cohesion and object cohesion.<br /><br />Coupling is the strength of interconnectedness between the components during design.<br /><br />In general a reduced software complexity requires high cohesion and loose coupling. <br /><br />For concurrent engineering perpective one can look at how multi-core processors are handling concurrent execution. This takes me back to the basics of concurrent execution and synchronization basics [Terrence W Pratt, Programming language] I read while at college. Concurrent execution is facilitated through syncronization techniques such as interrupts, semaphores, guarded statements, multi-tasking and so on. Now the paradigm for concurrent execution has shifted with multi-threading and the concept boosted with multi-processor and multi-core systems.<br /><br />What of the above technique can we use to address software complexity and concurrent <br />software development?
