@@ -29,8 +29,8 @@ twitter_username: sunilraghunatha
 github_username:  raghunathansunil
 linkedin_username: sunil-raghunathan
 header_pages:
-  - index.md
-  - about.md
+  - index.markdown
+  - about.markdown
   - blog.md
   - project.md
 
