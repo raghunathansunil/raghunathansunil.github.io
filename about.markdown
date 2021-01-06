@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
+<img class="center" src="../Portrait.jpg" alt="">
 
 My specialization is in creating new opportunities, defining & delivering outcomes in complex technology engagements working across organization boundaries.
 
