@@ -35,10 +35,15 @@ header_pages:
   - project.md
   - contactus.md
 
+talkyard_server_url: https://comments-for-raghunathansunil-github-io.talkyard.net
+talkyard_script_url: https://c1.ty-cdn.net/-/talkyard-comments.min.js
+
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
