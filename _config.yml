@@ -33,6 +33,7 @@ header_pages:
   - about.markdown
   - blog.md
   - project.md
+  - contactus.md
 
 # Build settings
 theme: minima

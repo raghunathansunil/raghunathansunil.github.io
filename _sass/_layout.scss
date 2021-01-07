@@ -266,3 +266,8 @@
   margin-right: auto;
   width: 15%;
 }
+
+.required:after {
+  content:" *";
+  color: red;
+}
