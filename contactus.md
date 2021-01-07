@@ -25,4 +25,4 @@ permalink: /contactus/
 
 </form>
 
-<p> The Contact form implemented with <a href="http://formspree.io"> Formspree.io </a>. You will be redirected to ReCaptcha site.</p>
+<p> The Contact form implemented with <a href="http://formspree.io"> formspree.io </a>. You will be redirected to ReCaptcha site.</p>
