@@ -14,7 +14,7 @@ permalink: /contactus/
         <label class="required" for="full-name">Full Name</label><br>
         <input type="text" name="name" id="full-name" size="104" required=""><br>
         <label class="required" for="email-address" >Email Address</label><br>
-        <input type="text" name="_replyto" id="email-address" size="104 " pattern="/^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/" required><br>
+        <input type="text" name="_replyto" id="email-address" size="104" required><br>
         <label class="required" for="message">Message</label><br>
         <textarea name="message" id="message" rows="5" cols="100" required></textarea><br>
         <!-- your other form fields go here -->
