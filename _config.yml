@@ -32,6 +32,7 @@ header_pages:
   - index.markdown
   - about.markdown
   - blog.md
+  - twitter.md
   - project.md
   - contactus.md
 
@@ -44,6 +45,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-twitter-plugin
 
 # Exclude from processing.
 # The following items will not be processed, by default.
