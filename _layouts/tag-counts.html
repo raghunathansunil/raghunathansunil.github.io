@@ -10,7 +10,7 @@ layout: default
         {% assign tag_slug = tag['name'] | slugify: "raw" %}
         <li>
           <a class="tag-link"
-            href={{ site.url | append: "/tags/" | append: tag_slug | append: "/" }}
+            href={{ site.baseurl | append: "/tags/" | append: tag_slug | append: "/" }}
             rel="category tag">
             #{{ tag['name'] }} ({{ tag['count'] }})
           </a>
