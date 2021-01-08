@@ -21,7 +21,12 @@ layout: default
   {% if page.tags.size > 0 %}
     <b>Tags:</b>
       {% for tags in page.tags %}
-        <i>#{{ tags| escape }} </i>
+        <!--<i>#{{ tags| escape }} </i> -->
+        <a class="tag-link"
+        href={{ site.baseurl | append: "/tags/" | append: tag_slug | append: "/" }}
+        rel="category tag">
+        #{{ tags | escape}}
+      </a>
       {% endfor %}
 
   {% endif %}
