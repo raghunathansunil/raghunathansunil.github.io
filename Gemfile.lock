@@ -78,7 +78,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  jekyll (~> 4.2.0)
+  jekyll
   jekyll-feed (~> 0.12)
   jekyll-seo-tag
   jekyll-sitemap
