@@ -18,11 +18,19 @@ layout: default
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
+  {% if page.tags.size > 0 %}
+    <b>Tags:</b>
+      {% for tags in page.tags %}
+        <i>#{{ tags| escape }} </i>
+      {% endfor %}
+
+  {% endif %}
+  <br>
   {% include blog-socialsharing.html %}
+  
   {% include talkyard-comments.html %}
 
-  
-  {%- if site.disqus.shortname -%}
+    {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}
 
