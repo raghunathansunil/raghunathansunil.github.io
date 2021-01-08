@@ -23,7 +23,7 @@ layout: default
       {% for tags in page.tags %}
         <!--<i>#{{ tags| escape }} </i> -->
         <a class="tag-link"
-        href={{ site.baseurl | append: "/tags/" | append: tag_slug | append: "/" }}
+        href={{ site.baseurl | append: "/tags/" | append: tags | append: "/" }}
         rel="category tag">
         #{{ tags | escape}}
       </a>
