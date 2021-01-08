@@ -32,7 +32,7 @@ header_pages:
   - index.markdown
   - about.markdown
   - blog.md
-  - twitter.md
+  - twitterfeedin.md
   - project.md
   - contactus.md
 

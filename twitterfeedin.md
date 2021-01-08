@@ -1,5 +1,5 @@
 ---
-layout: twitter
+layout: twitterfeedin
 title: Twitter Feed
 permalink: /tweets/
 ---

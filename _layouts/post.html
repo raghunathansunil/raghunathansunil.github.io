@@ -18,7 +18,9 @@ layout: default
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
+  {% include blog-socialsharing.html %}
   {% include talkyard-comments.html %}
+
   
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
