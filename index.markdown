@@ -13,6 +13,6 @@ The Github site was created with standard Web (Html, css, js), PHP, Git repo, an
 * Home: The current folder
 * Blogs: Point of view and articles
 * Twitter: Twitter feeds
-* Projects: Project that I'm currntly working on is referenced to Oauth site.
+* Projects: Project that I'm currntly working on is referenced to hosted authorized site.
 
 You can reach out to me on email or the social media sites listed below.
