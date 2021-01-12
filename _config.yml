@@ -28,17 +28,22 @@ url: "https://raghunathansunil.github.io" # the base hostname & protocol for you
 twitter_username: sunilraghunatha
 github_username:  raghunathansunil
 linkedin_username: sunil-raghunathan
+
+# 12-Jan: Sunilr - List of folders to display. Removed about.md file here as this is irrelevant.
 header_pages:
   - index.markdown
   - blog.md
   - twitterfeedin.md
   - project.md
   - contactus.md
+
+# 7-Jan: Sunil R - Collection tags to get the tag details
 collections:
   tags:
     output: true
     permalink: tags/:path/
-    
+
+#8-Jan: Sunil R - Talkyard for comment discussion and feedback.    
 talkyard_server_url: https://comments-for-raghunathansunil-github-io.talkyard.net
 talkyard_script_url: https://c1.ty-cdn.net/-/talkyard-comments.min.js
 
