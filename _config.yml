@@ -30,7 +30,6 @@ github_username:  raghunathansunil
 linkedin_username: sunil-raghunathan
 header_pages:
   - index.markdown
-  - about.markdown
   - blog.md
   - twitterfeedin.md
   - project.md
