@@ -3,18 +3,21 @@ layout: page
 title: Projects
 permalink: /project/
 ---
-List of active projects in github repository requires github user and part of team. Kindly reach through <a class="tag-link" href="https://raghunathansunil.github.io/contactus"> Contact Us </a> page.
+List of toolkits and accelerators in github repository. You must have a github user ID  and must be authorized to access them. You can access the details of each projected listed below from Hosted site. 
 
-If you are already enrolled, you can access the details of each projected listed below from <a class="tag-link" href="https://github-io-app.herokuapp.com/project"> site</a>.
+Kindly reach through <a class="tag-link" href="https://raghunathansunil.github.io/contactus"> Contact </a> page for connect.
 
 List of active projects in github repository:
 
-1. AI/ML: Supervised learning on TensorFlow.
-2. Kubernetes: Cheat sheets and Accelerators.
-3. Salesforce: Cheat Sheet and Accelerators for SFDX templates.
-4. Cloud-Native and Cloud Platform: Architecture Patterns, Design Patterns & Development.
+1. <a class="page-link" href="https://github-io-app.herokuapp.com/project"> Project </a> : Project DevOps startup kit and applications based on Github.
+2. <a class="page-link" href="https://github-io-app.herokuapp.com/AIML">AI/ML </a>: Supervised learning templates on TensorFlow.
+3. <a class="page-link" href="https://github-io-app.herokuapp.com/salesforce">Salesforce </a> : Cheat Sheets, Templates and Accelerators for SFDX.
+4. <a class="page-link" href="https://github-io-app.herokuapp.com/secureapp"> Secure Applications </a> : Privacy Preserving AIML Technology (PPAT) and Secure Application PoVs, scripts, templates and accelerators.
+5. <a class="page-link" href="https://github-io-app.herokuapp.com/platform">Cloud Platform </a> : AWS templates, scripts and architecture patterns. Generic Kubernetes scripts for use across cloud platforms.
+6. <a class="page-link" href="https://github-io-app.herokuapp.com/cloudnative"> Cloud-Native </a> : Cloud-Native Architecture Patterns, Design Patterns & Development accelerators.
+7. <a class="page-link" href="https://github-io-app.herokuapp.com/architecture"> Architecture </a> : Point of view on Architecture Patterns and PoV - Cloud-first, Mobile-first, WebDevs.
 
-List of active research projects:
+List of active research and upcoming accelerators you can collaborate: 
 
 1. AI/ML: Reinforcement Learning using TensorFlow
 2. Priavcy Preserving AI and Secure Development Patterns.
