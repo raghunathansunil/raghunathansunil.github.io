@@ -1,0 +1,69 @@
+---
+layout: post
+title: 'Consumer centered Privacy Preserving Digital Services and Commerce'
+date: 'Created on 2021-01-19 21:00'
+author: Sunil Raghunathan
+tags:
+- Priavacypreservingtech
+- Securemultipartycomputing
+- Homomorphicencryption
+- Differentialprivacy
+- TEE
+---
+<div> 
+<b>Problem domain</b>
+Consumer internet services provider websites (defined as all free digital assets, ecommerce, or products/services using web page) collect personal data to provide their services. These data is copied, shared and used by stakeholders and businesses for Advertising, marketing, recommendations, and service-enhancing functions both with and without consent. The data collected during sign up process contains a subset of information based on whether they are commerce site or a simple content site:
+<ul>
+    <li>	Profile: Identity, contact, address, demographic,…</li>>
+    <li>	Payment (for future service): Credit cards, COD,…</li>>
+    <li>	Automatic: IP, location, time-zone, device-id/type, cookies capturing specific user data. </li>>
+    <li>	External service provider: address, credit history, other stored info, …</li>>
+</ul>
+Clearly, the capturing of above data can lead to uncontrolled information flows leading to use or misuse beyond the intended purpose/context. The data is prone to the problem of unlimited/unrestricted/uncontrolled copy, unbounded as it collects more data than required for providing service, and suffers from recursive enforcement issues of regulations through audit agencies.  
+<b>Proposed Product & Service</b>
+The privacy preserving product or service must put the consumer as the owner of the privacy data and provide a consented service to use the personal data for intended purpose. 
+Product: Create and store frequently used user profile data in an encrypted format in a trusted federated site and request a data deletion request to all sites holding personal data from past transactions. An associated hosted application interacts with data store to provide the appropriate mechanism for digital delivery of service and secure encrypted data using SMC wherever the data is required for physical delivery of goods/service. 
+Service: All website seeking a specific profile data to provide service will seek the required personal data for transaction use from the hosted site and appropriate delivery mechanism for the data. 
+<b>Value Proposition</b>
+The key value proposition of these techniques are:
+<ol>
+    <li>	Securing consented& purposeful use of personal data. </li>
+    <li>	Consumer Internet service provider and their stakeholder do not get a copy of private data or any additional (unbounded) data than what is required to provide a specific service. </li>
+</ol>
+As an example, consider a scenario using the above product and service, a  Ecommerce site will never need to store a copy of profile/payment/external service provider data, but just user login. The issue of automatic data collection can be restricted through available technologies such as VPN/Tor Browser, pertaining to sharing IP, location, language, device related details can be restricted  
+USP over existing Product and Service
+There are no consumer internet service/goods provider or commerce service that can function today without collecting the above information. 
+The privacy preserving product and service discussed here will fundamentally change the strategy, financial/operating/execution business models and change the services being provided to users as it becomes unviable to provide any current services as we know them today.
+Considering a disruptive change and breaking the existing flows, a systemic resistance can be expected from the incumbents. The voluntary choice of adopting a privacy 
+<b>Use Case</b>
+The use case captured here is an illustration but not an exhaustive view of the proposed product and service:
+<ol>
+    <li>Consumer/User Setup Flow.</li>
+        <ol>
+                <li>	User setups the repository of personal data (encrypted at rest).</li>>
+                <li>	User hosts the application engine that will provide the mechanism to serve encrypted personal data request access (encrypted in transit and protected by certificates):</li>
+        </ol>
+    <li>Service provider transaction Flow:</li>
+        <ol>
+                <li>	The application service request is logged by the consumer internet service provider when user logs in seeking a service/goods.</li>
+                <li>	The application determines the mechanism to service the request based on the service type.  </li>
+                <ol>
+                        <li>	A simple email for digital document download is serviced as follows:
+A HTML Page is sent so the consumer internet service provider can upload the digital good/service and post it to the user. Here the email mechanism is eliminated and no personal information is shared.ost request with attachment is sent eliminating a need for email id.</li>
+                        <li>    A commerce transaction of buying goods involved multiple stakeholders involving a Payment service provider, Warehouse service provider, Logistic provider, Transportation provider, …. The collaboration across these flows will use Secure multi-party computation involving the Consumer and the Consumer Internet goods provider (Ecommerce site) for each of the hand-off and one of the stakeholder depending on stage and step in transaction flow. Here for each transaction any need for privacy data is handled through the respective flow. </li>
+                </ol>
+        </ol>
+</ol>
+<b>Product map to use case</b>
+The following steps describe the information flows, privacy requirements and the current privacy enhancing technologies. 
+<ol>
+    <li>    Information Flow Governance: The Information flow is strictly controlled by the consumer/user holding the private data for the specific use it is intended to. The privacy data can be anything defined as  PII as per regulations and additional the user qualifies to be personal. Here only encrypted data is shared to all the parties.</li>
+    <li>	Privacy requirement: The privacy requirement characteristics analyzed here:</li>
+        <ol>
+                <li>    Input privacy: PKI to secure data-in transit and data-at-rest is encrypted with know cryptographic techniques. This is complemented with Secure Multi Party computation wherever the encrypted personal data is to be used to provide the service. The automatic leaks are protected using the VPN technology and using TOR browsers which makes tracking source difficult.</li>
+                <li>	Input verification: Certificates to verify user/consumer trust. ZKP techniques are used for verifying the authenticity of personal data of the consumer/user.</li>
+                <li>	Output privacy: The output privacy controlled with Differential privacy and budgets, wherever the consumer internet service/goods provider requires transaction dataset to optimize service. The consumer/user can mandate usage of Homomorphic encryption on cloud provider and/or secure TEE for processing their data in any AI/ML algorithms.</li>
+                <li>	Output verification: Any data which consumer/user authorizes 3rd party will be based on auditable mechanisms, federated learning and published data on bias, and confusion matrix data of the algorithms built. The models will be enabled for federated learning to avoid drifts.</li>
+        </ol>
+</ol>
+</div>
