@@ -1,0 +1,20 @@
+---
+layout: post
+title: Genx (34-54 yrs) Work and Life shaping companies.
+date: '2020-12-11T08:47:00+00:00'
+tags: entrapreneurship
+---
+
+ A great experience to learn, evolve and engage these technologies & tools. 
+One tends to have a point of view or opinion in experimenting & shaping the next technology impact, outcome with Millennials (23-38), Gen-Z (7-22) & Gen-i? 
+
+1. Desktop->OS->Language Compiler->Productivity& System S/w tools->Music Devices->Music Svc->Phones->Apps platform->Devices->Consumer svcs & Device
+2. OS->Language & compiler -> productivity tools->Browser->Database->Apps-> Phones ->Computing devices & Game console->Platform->?
+3. Database->Compiler/SQL->ERP Apps->Apps->Industry apps-> Biz tools &apps->Server & compiler & OS->Platform->?
+4. ERP->App S/W->Database->Platform->Cloud ERP->?
+5. Search Engine->OS & Browser->OS & Compiler -> S/w Engg tools->Apps & Utilities -> AI/ML System software -> Devices-> Platform-?
+6. Linux->App Server->Git-> FS->Analytics->Systems S/w->...
+7. Social platform->Language & Compiler->Communication Tools->Apps->?
+8. ISP->Online Bookstore->E-Commerce->Infra. & platform->Device & Book reader->System & App S/w->Retail Food Store->Processor->?
+9. VCR Rental->DVD rental->Web Portal->Streaming media->original content->?
+10. SaaS CRM-> Apps Platform ->Commerce app -> Integration -> Report Visualization->Collaboration->?

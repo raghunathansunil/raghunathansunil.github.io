@@ -1,0 +1,24 @@
+---
+layout: post
+title: Tiny-ML.
+date: '2020-09-15T05:42:00+00:00'
+tags: TinyML AI distributedcomputing IOT, Edgecomputing
+---
+
+TinyML on Micro-controllers a counter-intuitive affordable option for few use case, while enterprise cloud platforms and architectures grapple with resolving the fallacy of Distributed Architecture with AI/ML enabled actionable insights at shrinking budgets: 
+
+1. Network always works.
+2. Network topology don't change.
+3. Network is homogeneous.
+4. Network is secure.
+5. Unbounded bandwidth.
+6. No latency issues.
+8. API Calls don't cost anything.
+9. Distributed Transactions compliant with marketing pitches CAP/ACID/BASE.
+10. Logging & Monitoring is out of box.
+11. Contracts for distributed computing is just access and authentication challenge.
+12. Multi-version & compatibility is simple DevOps.
+13. There is One - Administrator, Architect, Developer - Owner, Operator!
+
+Great intro to the TinyML 2 year old article from Peter Warden! 
+https://sites.google.com/g.harvard.edu/tinyml/home
