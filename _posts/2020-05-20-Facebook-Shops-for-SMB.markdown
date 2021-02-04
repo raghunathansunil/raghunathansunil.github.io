@@ -3,7 +3,7 @@ layout: post
 title: Facebook Shops for SMB launced today! e-Commerce democratized and potential
   to disrupt many pure-play marketplaces - Big and small!.
 date: '2020-05-20T16:12:00+00:00'
-tags: 'ecommerce, socialcommerce '
+tags: ecommerce socialcommerce
 ---
 
 

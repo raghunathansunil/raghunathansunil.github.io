@@ -2,9 +2,7 @@
 layout: post
 title: C360 Force multiplier with Salesforce AWS.
 date: '2020-12-14T18:27:00+00:00'
-tags: 'AWS, Salesforce, CRM
-
-  '
+tags: AWS Salesforce CRM
 ---
 
 Great roadmap ahead. Real use cases will require one to tread both worlds smoothly...Step-Up and Game-on.

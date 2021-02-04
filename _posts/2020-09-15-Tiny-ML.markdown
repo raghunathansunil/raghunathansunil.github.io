@@ -2,7 +2,7 @@
 layout: post
 title: Tiny-ML.
 date: '2020-09-15T05:42:00+00:00'
-tags: TinyML AI distributedcomputing IOT, Edgecomputing
+tags: TinyML AI distributedcomputing IOT Edgecomputing
 ---
 
 TinyML on Micro-controllers a counter-intuitive affordable option for few use case, while enterprise cloud platforms and architectures grapple with resolving the fallacy of Distributed Architecture with AI/ML enabled actionable insights at shrinking budgets: 

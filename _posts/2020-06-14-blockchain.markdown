@@ -3,7 +3,7 @@ layout: post
 title: Interesting contrast of blockchain forays by big platform players with IBM
   Sony Samsung business use case centered approach..
 date: '2020-06-14T15:22:00+00:00'
-tags: cybersecurity, blockchain
+tags: cybersecurity blockchain
 ---
 
 

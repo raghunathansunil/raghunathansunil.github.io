@@ -3,7 +3,7 @@ layout: post
 title: Business@Speed  Squad, Tribe, Chapter, Guilds with a culture of Trust, Autonomy
   & Transparency..
 date: '2020-05-21T04:41:00+00:00'
-tags: "agile devops! \nAgile"
+tags: agile devops
 ---
 
 

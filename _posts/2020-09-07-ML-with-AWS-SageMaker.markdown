@@ -2,11 +2,7 @@
 layout: post
 title: ML with AWS SageMaker an upcoming book DataScience on AWS.  .
 date: '2020-09-07T12:09:00+00:00'
-tags: |-
-  explainableai services which will become core of every Google offerings. Limited coverage on AWS Sagemaker Debugger service which claims to provide similar service...
-  2. multicloud , there is no clear offering from AWS unlike Google's Anthos
-
-  AWS ML:
+tags: AWSML
 ---
 
 NLP Illustrations are interesting commercial use cases for E-commerce:
@@ -18,4 +14,5 @@ NLP Illustrations are interesting commercial use cases for E-commerce:
 This contrasts with Google clouds opensource tools: DataProc, Data fusion, Anthos+GKE, DataFlow, BigQuery,.... 
 
 The next big race will be on MLOPs: 
-1. 
+1. explainableai services which will become core of every Google offerings. Limited coverage on AWS Sagemaker Debugger service which claims to provide similar service...
+2. multicloud , there is no clear offering from AWS unlike Google's Anthos

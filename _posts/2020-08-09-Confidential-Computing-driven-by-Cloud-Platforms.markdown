@@ -2,7 +2,7 @@
 layout: post
 title: Confidential Computing driven by Cloud Platforms .
 date: '2020-08-09T14:50:00+00:00'
-tags: "cybersecurity Securityarchitecure\nReference: \n1."
+tags: cybersecurity Securityarchitecture
 ---
 
 Ensuring encryption in use will be the next leap to secure data & algorithms while being processed to avoid swiping data from memory (during processing) and reverse engineering code leading to exposed algorithm. Thinking beyond Code security, Data Encryption at Rest and Data Encryption in Transit.

@@ -4,7 +4,7 @@ title: KTDI - Excellent use case of moving control on personal private data to t
   individual wallets, and selectively disclosing for a specific transactions (Refer
   Accenture Technology Vision 2020 - POD's concept). .
 date: '2020-04-17T11:39:00+00:00'
-tags: 5g blockchain, e-commerce retail fmcg
+tags: 5g blockchain e-commerce retail fmcg
 ---
 
 

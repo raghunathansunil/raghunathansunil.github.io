@@ -3,7 +3,7 @@ layout: post
 title: Open source tools are at its best to help a techie to expose web site vulnerabilities.
   More cloud and digital more opportunities to be hacked.
 date: '2020-06-26T18:17:00+00:00'
-tags: cloud cybersecuritye/i-everything
+tags: cloud cybersecurity
 ---
 
 1. Active and passive reconnaisance tools can pretty much get any information out there on web about individuals, groups and entities: Shodan, Recon-Ng, theHarvester and Maltego
