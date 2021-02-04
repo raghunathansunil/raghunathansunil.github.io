@@ -10,9 +10,7 @@ Journey of Image recognition convnet architectures starting from LENET based on 
 All rooted on basic Convolution Neural Network. 
 
 Foundation:<br>
-Convolution basiscs: https://betterexplained.com/articles/intuitive-convolution/ <br>
-Basic Lenet: https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/ <br>
-Comparitive study: https://arxiv.org/ftp/arxiv/papers/1901/1901.06032.pdf <br>
-
-Exponential Fix:<br>
-https://towardsdatascience.com/illustrated-10-cnn-architectures-95d78ace614d <br>
+<a href="https://betterexplained.com/articles/intuitive-convolution/"> Convolution basiscs</a> <br>
+<a href="https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/"> Basic Lenet </a> <br>
+<a href="https://arxiv.org/ftp/arxiv/papers/1901/1901.06032.pdf"> Comparitive study </a> <br>
+<a href="https://towardsdatascience.com/illustrated-10-cnn-architectures-95d78ace614d">Exponential Growth </a> <br>
