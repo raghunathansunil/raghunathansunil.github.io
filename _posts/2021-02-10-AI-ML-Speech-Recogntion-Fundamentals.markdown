@@ -2,7 +2,7 @@
 layout: post
 title: AI Explainability - Speech Recognition Fundamentals 
 date: '2021-02-09T14:31:00+00:00'
-tags: AI DL ML Tensorflow TFlite
+tags: AI ML Tensorflow TFlite Speechrecognition
 ---
 
 The open source of Speech recognition made possible with AI-ML algos with feature engineering science and techniques that emerged more than 25 yrs back. 
