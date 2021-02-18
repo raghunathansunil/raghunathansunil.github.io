@@ -2,7 +2,7 @@
 layout: post
 title: AI Explainability - Speech Recognition Fundamentals 
 date: '2021-02-09T14:31:00+00:00'
-tags: AI ML Tensorflow TFlite Speechrecognition
+tags:   AI ML Tensorflow TFlite Speechrecognition
 ---
 
 The open source of Speech recognition made possible with AI-ML algos with feature engineering science and techniques that emerged more than 25 yrs back. 
@@ -19,6 +19,7 @@ References:<br>
 <a href="https://github.com/mborgerding/kissfft"> KISS FFT </a> <br>
 <a href="https://github.com/jameslyons/python_speech_features"> MLCC Python code </a> <br>
 <a href="https://librosa.org/doc/latest/index.html"> Librosa Library for MLCC </a> <br>
+<a href="https://commonvoice.mozilla.org/"> Dataset CC-BY Licensed </a> <br>
 
 Science: <br>
 <a href="https://www.youtube.com/watch?v=spUNpyF58BY"> Fourier Transforms </a> <br>
