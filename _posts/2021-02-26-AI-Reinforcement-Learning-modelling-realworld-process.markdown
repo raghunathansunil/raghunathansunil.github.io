@@ -25,15 +25,15 @@ The value at a givens state and actions are given by a value functions. The rein
     </tr>
     <tr> 
         <td> Monte Carlo </td>
-        <td> No </td>
+        <td> No. Model free </td>
         <td> Medium </td>
-        <td> Low/Medium </td>
+        <td> Yes. Complete episodes with Termination </td>
     </tr>
     <tr> 
         <td> Temporal Difference  </td>
-        <td> No </td>
+        <td> No. Model free, but markov. </td>
         <td> Medium </td>
-        <td> Low/Medium </td>
+        <td> Yes. can have incomplete sequence. Both episodic & continuing tasks. </td>
     </tr>
 </table>
 
@@ -46,36 +46,39 @@ The learning algorithm characteristics are determined by backups, bootstrapping,
         <td> Bootstrapping </td>
         <td> Policy Evaluation </td>
         <td> Policy Improvement </td>
-        <td> Value Improvement </td>
         <td> Exploration </td>
+        <td> Value function Improvement </td>
+        <td> Convergence condition </td>
     </tr>
     <tr> 
         <td> Dynamic Programming </td>
         <td> Full </td>
         <td> Yes </td>
         <td> Greedy with threshold </td>
-        <td> Convergence of improvements </td>
-        <td> Greedy </td>
+        <td> Convergence of Value state function improvements </td>
         <td> NA as it is exhaustive</td>
+        <td> Greedy method for Value state function </td>
+        <td> Maximum Actions </td>
     </tr>
     <tr> 
         <td> Monte Carlo </td>
         <td> Simulated Sampling </td>
         <td> None. Actual experience values </td>
-        <td> Epsilon-Soft policy selection and averaging </td>
-        <td> Averaging </td>
-        <td> Sampling </td>
+        <td> Episode level:Epsilon-Soft policy selection and averaging </td>
+        <td> Episode level: Averaging </td>
         <td> On Policy: Exploring Starts/Episilon Greedy and Off Policy: behavioud Policy based</td>
+        <td> Sampling to derive value action function</td>
+        <td> Robin-Monroe sequence where sum of steps is infinity, but its square is bounded.</td>
     <tr>
     <tr> 
         <td> Temporal Difference  </td>
         <td> Simulated Sampling </td>
         <td> T+1 boottrap </td>
-        <td> Predicted value at T+1  </td>
-        <td> Epsilon-Greedy or max target policy with minimizing delta loss </td>
-        <td> Greedy with step size reduction and reducing Gamma</td>
+        <td> Time Step: Predicted value at T+1  </td>
+        <td> Time Step: Epsilon-Greedy or max target policy with minimizing delta loss </td>
         <td> On Policy: Sarsa and Off Policy: Q-Learning & Expected Sarsa</td>
-
+        <td> Greedy with step size reduction and reducing Gamma for Value action function</td>
+        <td> Robin-Monroe sequence where sum of steps is infinity, but its square is bounded.</td>
     </tr>
 </table>
 
