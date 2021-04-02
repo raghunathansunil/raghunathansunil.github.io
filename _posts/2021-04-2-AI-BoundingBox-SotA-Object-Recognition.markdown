@@ -5,7 +5,7 @@ date: '2021-04-02T14:31:00+00:00'
 tags:   AI YOLO CNN
 ---
 
-SoTA for object loalization, detetction using anchors and bounding boxes. Must read to understand AI Visualization progress and emerging use cases.
+SoTA for object loalization, detetction using anchors and bounding boxes. Must read to understand AI Visualization progress and emerging use cases - Self-driving cars.
 
 <a href="https://arxiv.org/abs/1312.6229"> Overfeat: Localization & Detection </a>
        |
