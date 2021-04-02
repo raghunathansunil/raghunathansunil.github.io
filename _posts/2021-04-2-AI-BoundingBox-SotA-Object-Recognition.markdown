@@ -11,11 +11,15 @@ SoTA for object loalization, detetction using anchors and bounding boxes. Must r
        |
        |
        V
-<a href="https://arxiv.org/abs/1506.02640"> You Only Look once:
+<a href="https://arxiv.org/abs/1506.02640"> You Only Look once </a>
        |
        |
        V
-<a href="https://arxiv.org/abs/1311.2524"> R-CNN - Region Proposal Network </a>
+<a href="https://arxiv.org/abs/1311.2524"> R-CNN </a>
+       |
+       |
+       V
+<a href="https://arxiv.org/pdf/1506.01497.pdf"> Region Proposal Network </a>
        |
        |
        V
