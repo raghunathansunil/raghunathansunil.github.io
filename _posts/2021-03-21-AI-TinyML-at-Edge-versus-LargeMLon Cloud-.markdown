@@ -1,19 +1,12 @@
 ---
 layout: post
-title: Evolution Strategies an Alternative to Reinforcement Learning - DQN   
-date: '2021-03-16T14:31:00+00:00'
-tags:   AI ML RL DQN ES
+title: TinyML - Edge vs Cloud   
+date: '2021-03-21T14:31:00+00:00'
+tags:   TinyML AI ML
 ---
 
-Evolution Strategy presents a good alternative to RL DQN for games like Atari and Human Exoskeleton systems. All this without needing a SGD algorithms, which is arguably not the model how humans intelligence works. 
+TinyML provides a unique option to push ML uses cases to edge device for inference. The Large Cloud-based compute-intensive platforms will be required to train and build robust models. 
 
-All popular AI/ML is primarily dependent on backpropogation algorithms for optimizations and a refreshing new method is worthy alternative. 
+TinyML model will push for AI/ML model optimization initiatives, that would otherwise be slow to evolve. 
 
-
-<b>References of Scholarly articles<b><br>
-1. <a href="https://arxiv.org/abs/1703.03864"> ES Alternative to RL </a>
-2. <a href="https://science.sciencemag.org/content/356/6344/1280"> Human Exoskeleton case </a>
-
-<b>Basic Algorithm and Intuition References<b><br>
-<a href=https://openai.com/blog/evolution-strategies/> ES Vs RL debate. </a>
-
+The challenge with TinyML models will be of handling the device accuracy- decay over time, model drift, and robustness of solutions due to changing data-characteristics. The distributed/federated AI offers a vaible solution to address such gaps over a period of time, but needs a complete shift in the overall architecure of such models. It will be interesting to see how the industry will emerge to solve new problems that will be created with edge computing.
